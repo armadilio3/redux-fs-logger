@@ -1,0 +1,47 @@
+{
+  "name": "redux-fs-logger",
+  "version": "1.0.0",
+  "description": "A logger for Redux, that stores all actions to the filesystem",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armadilio3/redux-fs-logger.git"
+  },
+  "keywords": [
+    "redux",
+    "logger",
+    "file",
+    "system",
+    "filesystem",
+    "redux-logger",
+    "middleware"
+  ],
+  "author": "Armands Malejevs (https://github.com/armadilio3)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armadilio3/redux-fs-logger/issues"
+  },
+  "homepage": "https://github.com/armadilio3/redux-fs-logger/",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-inline-environment-variables": "6.8.0",
+    "babel-preset-es2015": "^6.24.0",
+    "codecov": "1.0.1",
+    "http-server": "0.9.0",
+    "husky": "^0.13.2",
+    "mocha": "3.1.2",
+    "nyc": "9.0.1",
+    "redux": "^3.6.0",
+    "rimraf": "^2.6.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^1.0.2",
+    "sinon": "^1.17.7"
+  },
+  "dependencies": {
+    "deep-diff": "^0.3.5"
+  }
+}
